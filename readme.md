@@ -11,14 +11,13 @@ A simple task management REST API built with **Java**, **Spring Boot**, **JWT Au
 - Create and retrieve tasks
 - RESTful APIs with Spring Boot
 - In-memory H2 database
-- Lightweight & easy to deploy
 
 ---
 
 ## Tech Stack
 
 - Java 17+
-- Spring Boot 3.x
+- Spring Boot 3.4.5
 - Spring Security
 - JWT (jjwt)
 - Lombok
@@ -29,8 +28,13 @@ A simple task management REST API built with **Java**, **Spring Boot**, **JWT Au
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### 1. Clone the Repository and Run the Application
 
 ```bash
-git clone https://github.com/your-username/task-manager.git
+git clone https://github.com/singshu647/task-manager.git
 cd task-manager
+./mvnw spring-boot:run
+```
+### 2. Use Postman or Curl to Test the APIs
+- Postman collection: Task manager.postman_collection.json
+- Swagger UI: http://localhost:8080/swagger-ui/index.html
